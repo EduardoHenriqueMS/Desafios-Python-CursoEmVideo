@@ -6,6 +6,6 @@ cart = float(input('Informe quanto dinheiro você tem disponível em reais:'))
 
 dol = cart / 5.20
 
-print('A quantia de R$ {} pode proporcionar um valor de US$ {}'.format(cart, dol))
+print('A quantia de R$ {:.2f} pode proporcionar um valor de US$ {:.2f}'.format(cart, dol))
 
 
