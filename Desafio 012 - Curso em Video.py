@@ -4,5 +4,5 @@
 pre = float(input('Digite o preço do produto:'))
 desc = pre * (95/100)
 
-print('O preço do produto é {}, mas com 5% de desconto ficará {}'.format(pre, desc))
+print('O preço do produto é {:.2f}, mas com 5% de desconto ficará {:.2f}'.format(pre, desc))
 
