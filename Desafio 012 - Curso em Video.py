@@ -1,0 +1,8 @@
+# Faça um algoritmo que leia o preço de um produto e mostre
+# seu novo preço, com 5% de desconto.
+
+pre = float(input('Digite o preço do produto:'))
+desc = pre * (95/100)
+
+print('O preço do produto é {}, mas com 5% de desconto ficará {}'.format(pre, desc))
+
